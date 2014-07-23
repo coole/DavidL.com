@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+  <link rel="file:///C:/Users/Computer/Documents/David%20L.com/David%20L.com/David%20L.%20com.html">
+</head>
+<body>
+<a href="index"></a>
+	<button OnClick="myFunction(About)"><a href="../Home/About/History/index.html">About</a></button>
+<ul style=color:#FFF;><button OnClick="myFunction(History)"><a href="History">History</a></button></style></ul>
+</body>
+</html>
