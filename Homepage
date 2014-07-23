@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+  <link rel="file:///C:/Users/Computer/Documents/David%20L.com/David%20L.com/David%20L.%20com.html">
+</head>
+<body>
+<a href="#Home">Home</a>
+<p style="color:#FF0000;">Don't click on the "Home" button above. Press the one shown below to get to the homepage.</style></p>
+<button type="button" onClick="location.href='file:///C:/Users/Computer/Documents/David%20L.com/David%20L.com/David%20L.%20com.html'">Home</button>
+
+</body>
+</html>
