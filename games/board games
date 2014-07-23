@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+  <link rel="file:///C:/Users/Computer/Documents/David%20L.com/David%20L.com/David%20L.%20com.html">
+</head>
+<body>
+<a href="index"></a>
+	<a href="../Home/Games/Board Games/Othello/index.html"></a>
+	<a href="index"></a>
+	<a href="../Home/Games/Board Games/Checkers/index.html"></a>
+	<a href="index"></a>
+	<a href="../Home/Games/Board Games/Chess/index.html"></a>
+	<a href="index"></a>
+<ul style=color:#FFF;><button Onclick="myFunction(Board Games)"><a href="Board Games">Board Games</a></button></style></ul>
+</body>
+</html>
