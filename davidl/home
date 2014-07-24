@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>DavidL.com</title>
+</head>
+<body>
+<a href="#Home">Home</a>
+<p style="color:#FF0000;">Don't click on the "Home" button above. Press the one shown below to get to the homepage.</style></p>
+<button type="button" onClick="location.href='file:///C:/Users/Computer/Documents/David%20L.com/David%20L.com/David%20L.%20com.html'">Home</button>
+<a href="index"></a>
+	<a href="About/Contact Us/index.html"></a>	
+<ul style=color:#FFF;><button><a href="Contact Us">Contact Us</a></button></style></ul>	
+<a href="index"></a>
+	<button OnClick="myFunction(About)"><a href="About/History/index.html">About</a></button>
+<ul style=color:#FFF;><button OnClick="myFunction(History)"><a href="History">History</a></button></style></ul>
+<a href="Apps/2048/index.html"></a>
+<ul style=color:#FFF;><button OnClick="myFunction(Apps)"><a href="Apps">Apps</a></button></style></ul>
+<a href="index"></a>
+	<a href="Board Games/Othello/index.html"></a>
+	<a href="index"></a>
+	<a href="Board Games/Checkers/index.html"></a>
+	<a href="index"></a>
+	<a href="Board Games/Chess/index.html"></a>
+	<a href="index"></a>
+<ul style=color:#FFF;><button Onclick="myFunction(Board Games)"><a href="Board Games">Board Games</a></button></style></ul>
+<ul style=color:#FFF;><a href="Games"></a></style></ul>
+	<a href="index"></a>
+	<a href="Browser Games/Combat Arms/index.html"></a>
+	<button onClick="myFunction(Games)"><a href="Games">Games</a></button>
+	<a href="Browser Games/Minecraft/index.html"></a>
+	<a href="Browser Games/How To Train Your Dragon/index.html"></a>
+<ul style=color:#FFF;><button Onclick="myFunction(Browser Games)"><a href="Browser Games">Browser Games</a></button></style></ul>
+<a href="index"></a>
+	<a href="Video Games/Super Mario Advance/index.html"></a>
+	<a href="index"></a>
+	<a href="Video Games/Pokemon Black and White/index.html"></a>
+<ul style=color:#FFF;><button OnClick="myFunction(Video Games)"><a href="Video Games">Video Games</a></button></style></ul>
+</body>
+</html>
