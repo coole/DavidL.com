@@ -4,11 +4,11 @@
 </head>
 <body>
 <a href="index"></a>
-	<a href="../Home/Games/Board Games/Othello/index.html"></a>
+	<a href="Board Games/Othello/index.html"></a>
 	<a href="index"></a>
-	<a href="../Home/Games/Board Games/Checkers/index.html"></a>
+	<a href="Board Games/Checkers/index.html"></a>
 	<a href="index"></a>
-	<a href="../Home/Games/Board Games/Chess/index.html"></a>
+	<a href="Board Games/Chess/index.html"></a>
 	<a href="index"></a>
 <ul style=color:#FFF;><button Onclick="myFunction(Board Games)"><a href="Board Games">Board Games</a></button></style></ul>
 </body>
