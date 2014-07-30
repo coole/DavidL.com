@@ -1,160 +1,106 @@
 <link rel="stylesheet" type="text/css" href="style.css.css"/>
-<!--[if IE]>
-           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-   <![endif]-->
+	<!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/png" href="http://static2.gamespot.com/uploads/scale_tiny/1197/11970954/2317972-2224507-box_minecraft.png">
+	<style>
+	h1	{
+		background-color: none;
+		margin-left: -150px;
+		font-size: 250%; 
+	}
 
-h1	{
-background-color: none;
-margin-left: -150px;
-}
-h1{font-size: 250%;} 
-p {font-size: 110%;}
-button{font-size: 120%;}
-<a href="Home"{font-size: 200%;}
-a{
-color: #0000FF;
-}
+	p.padding  {
+	 padding: 40px 30px;
+	 font-size: 110%;
+	}
+	
+	img
+	{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-bottom: -10px;
+	z-index: -1;	
+	max-width: 100%;
+	}
 
-a {
-text-decoration: none;
-}
-p.padding  {
-padding: 40px 30px;
-}
-li{font-size: 100%;}
-img
-{
-position: absolute;
-left: 0px;
-top: 0px;
-margin-bottom: -10px;
-z-index: -1;	
-max-width: 100%;
-}
+	div {
+		width: 300;
+		height: 100; /* 300/100 = 3 */
+		-webkit-animation:myfirst 5s; /*chrome, safari, opera */
+		animation: myfirst 5s;
+		max-height: 200;
+		max-width: 600; /* 3/1 = 3 */
+		margin: auto;
+		position: absolute;
+		top: 0; bottom: 0; /*vertical center */
+		left: 0; right: 0; /*horizontal center */
+	}
+	/*standard syntax */
+	@keyframes myfirst {
+		from {background: #0000FF}
+		to {background: #727;}
+	}
 
-div {
-width: 300;
-height: 100;
--webkit-animation:myfirst 5s; /*chrome, safari, opera */
-animation: myfirst 5s;
-}
-/*standard syntax */
-@keyframes myfirst {
-from {background: #0000FF}
-to {background: #727;}
-}
 ul {
-list-style-type: none;
-margin: 5;
-padding: 0;
-overflow: hidden;
+	list-style-type: none;
+	margin: 5;
+	padding: 0;
+	overflow: hidden;
 
 }
 
 li {
-float: left;
-
+	float: left;
+	font-size: 100%;
 }
 
 a {
-display: block;
-width: 80px;
-background-color: #dddddd;
+	display: block;
+	width: 95px;
+	background-color: #dddddd;
+	text-decoration: none;
+	color: #0000FF;
+	margin-bottom: 1px;
+	margin-top: -1px;
+	margin-right: 5px;
 }
 
 
 
 span {
-margin-left: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
 }
 
 button{
-margin-right: 165px;
-width: 100px;
+	margin-right: 155px;
+	margin-bottom: 20px;
+	width: 110px;
+	font-size: 120%
 }
 
 dl{
-margin-top: -40px;	
+	margin-top: -40px;	
+}
+
+.body {width: 1375px; height: 71px ; background-color: #0000FF; }
+
+@media only screen and (min-width: 0px) and (max-width: 1348px;) {
+	h1 {
+		color: #FF0000;
+	}
+}
+
+.class {
+	margin-right: 5px;   
 }
 
 
-body {
-background-color:#0000CC;
-color:#00FFFF;
-}
-
-.button Onclick {
-float: right;
-padding: 10px;
-border-radius: 10px;
-width: 100px;
-height: 60px;
-}
-
-
-nav {
-margin: 0;
-padding: 0;
-}
-
-nav ul {
-margin: 0;
-padding: 0;	
-}
-
-nav li {
-list-style: none;
-float: left;
-position: relative;
-}
-
-nav ul li a {
-color: #FFF;
-text-align: left;
-text-decoration: none;
-width: 50px;
-height: 30px;
-display: block;
-}
-
-nav ul ul {
-position: absolute;
-display: none;
-}
-
-nav ul li:hover ul {
-background: #4b545f;
-background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);	
-}
-
-nav ul li:hover a {
-color: #FFF;
-}
-
-nav ul li a {
-display: block; padding: 25px 40px;
-color: #757575; text-decoration: none;
-}
-
-nav ul ul {
-background: #5f6975; border-radius: 0px; padding: 0;
-position: absolute; top: 100%;	
-}
-nav ul ul li {
-float: none;
-border-top: 1px solid #6b727c;
-border-bottom: 1px solid #575f6a;
-position: relative;
-}
-nav ul ul li a {
-padding: 15px 40px;
-color: #FFF
-}
-nav ul ul li a:hover {
-background: #4b545f;
-}
-nav ul ul ul {
-position: absolute; left: 100%; top: 0;
-}
+	<nav id="MainNavOuter" class="clearfix">
+		<ul id="MainNav" class="menu"><li id="menu-item-1" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-1"><a href="file:///C:/Users/Computer/davidl.com/davidl.com.html">home</a></li>
+			<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-2"><a href="home">home</a></li>
+			<li id="menu-item-3" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-3"><a href="games">games</a></li>
+			<li id="menu-item-4" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-4"><a href="about">about</a></li>	
+			<li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-5"><a href="tutorials">tutorials</a></li>
